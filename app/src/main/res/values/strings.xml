@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Study app</string>
     <string name="tv_text">TEST!</string>
+    <string name="TestTB">Test</string>
+    <string name="testTBon">TestOn</string>
+    <string name="testTBoff">TestOFF</string>
+    <string name="TestCB">TestCheckBox</string>
+    <string name="testSv">TestSvitch</string>
+    <string name="ResultEquel">Результат равенства</string>
+    <string name="Equal">Cравнить</string>
 </resources>

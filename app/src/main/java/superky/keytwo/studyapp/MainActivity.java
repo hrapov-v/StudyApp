@@ -41,10 +41,8 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText("Пожалуйста укажите не пустое значение");
                 }
 
-                //проверяю коммит
-
             }
-        });
 
+        });
     }
 }

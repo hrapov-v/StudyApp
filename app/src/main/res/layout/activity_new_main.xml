@@ -29,7 +29,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cравнить">
+        android:text="@string/Equal">
 
     </Button>
 
@@ -37,7 +37,7 @@
         android:id="@+id/textViev"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Результат равенства"
+        android:text="@string/ResultEquel"
         android:gravity="center">
 
     </TextView>
@@ -45,7 +45,7 @@
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TestSvitch"
+        android:text="@string/testSv"
         android:gravity="center">
 
     </Switch>
@@ -55,17 +55,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
-        android:text="TestCheckBox">
+        android:text="@string/TestCB">
 
     </CheckBox>
 
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test"
-        android:textOn="TestOn"
-        android:textOff="TestOFF"
-        >
+        android:text="@string/TestTB"
+        android:textOn="@string/testTBon"
+        android:textOff="@string/testTBoff">
 
     </ToggleButton>
 
