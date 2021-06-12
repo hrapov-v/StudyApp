@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -16,10 +18,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_new_main);
         final EditText editText1 = findViewById(R.id.editText1);
         final EditText editText2 = findViewById(R.id.editText2);
         final Button button = findViewById(R.id.button);
         final TextView textView = findViewById(R.id.textViev);
+        final CheckBox checkBox = findViewById(R.id.checkBox);
+        final CalendarView calendarView = findViewById(R.id.calendarViev);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
